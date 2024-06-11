@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <nav>
+            <p>Student</p>
+            <button id="open" >addStudent</button>
+        </nav>
+
+        <div class="students">
+
+            <form action="" onsubmit="addstudent(event)" >
+                <input id="input1" type="text" name="text" placeholder="First Name">
+                <input type="text" id="input2"  name="text" placeholder="Last Name">
+                <input id="input3"  name="number" placeholder="Phone number">
+                <input id="input4"  name="number" placeholder="Monthly fee">
+                <input id="input5"  name="number" placeholder="Inception date">
+                <div class="btns">
+                    <button>add</button>
+                </div>
+            </form>
+        </div>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Phone number</td>
+                    <td>Monthly fee</td>
+                    <td>Inception date</td>
+                    <td>edit/delete</td>
+                </tr>
+            </thead>
+            <tbody class="routine">
+
+            </tbody>
+
+
+        </table>
+    </div>
+    
+</body>
+<script src="./js.js"></script>
+</html>
